@@ -1,3 +1,45 @@
+# Sistema de Gerenciamento de Estudantes - CRUD
+
+## Visão Geral
+
+Esta é uma aplicação web moderna para gerenciamento de estudantes que oferece uma interface completa de CRUD (Create, Read, Update, Delete) para gerenciar registros de estudantes. A aplicação possui design responsivo com sistema de entrada baseado em formulários e uma tabela dinâmica para visualização de dados.
+
+## Descrição do Projeto
+
+O Sistema de Gerenciamento de Estudantes permite aos usuários gerenciar eficientemente informações dos estudantes, incluindo detalhes pessoais como nome, email, número de telefone e gênero. A aplicação fornece feedback em tempo real através de notificações toast e diálogos de confirmação para operações críticas como exclusão de dados.
+
+## Principais Funcionalidades
+
+- **Criar Estudantes**: Adicionar novos registros de estudantes através de uma interface de formulário intuitiva
+- **Visualizar Estudantes**: Ver todos os estudantes em uma tabela responsiva com formatação adequada dos dados
+- **Atualizar Estudantes**: Editar informações de estudantes existentes com formulários pré-preenchidos
+- **Excluir Estudantes**: Remover registros de estudantes com diálogos de confirmação para segurança
+- **Design Responsivo**: Otimizado para dispositivos desktop e mobile usando Tailwind CSS
+- **Feedback em Tempo Real**: Notificações toast para estados de sucesso e erro
+- **Validação de Dados**: Validação de formulários do lado cliente e tratamento de erros
+
+## Stack Tecnológica
+
+- **Framework Frontend**: Next.js 15.4.3 com React 19
+- **Estilização**: Tailwind CSS para design responsivo e componentes UI modernos
+- **Banco de Dados**: Supabase (PostgreSQL) para persistência de dados
+- **API**: Next.js API Routes para operações backend RESTful
+- **Componentes UI**: Componentes customizados com estilização Tailwind CSS
+- **Notificações**: React Hot Toast para feedback do usuário
+- **Diálogos de Confirmação**: SweetAlert2 para interações aprimoradas do usuário
+- **TypeScript**: Segurança de tipos completa e experiência de desenvolvedor
+
+## Arquitetura
+
+A aplicação segue uma arquitetura full-stack moderna:
+
+- **Frontend**: Componentes React com TypeScript para segurança de tipos
+- **Backend**: Rotas de API Next.js gerenciando operações CRUD
+- **Banco de Dados**: Integração com Supabase para armazenamento e recuperação de dados
+- **Estilização**: CSS utility-first com Tailwind para design responsivo
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
